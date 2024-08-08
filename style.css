@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'FiraCode';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(61, 100, 52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    height: 80%;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#start-btn{
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0b2902;
+}
+#start-btn:hover{
+    cursor: pointer;
+    background-color: #194e09;
+}
+
+h1{
+    font-size: 3vw;
+
+}
+
+#res-btn{
+    width: 7vw;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background-color: #0b2902;
+}
+#res-btn:hover{
+    cursor: pointer;
+    background-color: #194e09;
+}
+
+#eltop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30%;
+    height: 100px;
+    width: 100%;
+    background-color: #0b2902;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #31a71f;
+}
+#hit, #time, #score{
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+#elbtm{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* padding-right: 5px; */
+    
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #07570d;
+
+}
+.num:hover{
+    cursor: pointer;
+    background-color: #021804;
+}
+
+#restart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
